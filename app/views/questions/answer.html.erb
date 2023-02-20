@@ -1,0 +1,23 @@
+<div class="questionContainer">
+  <h2>Question:</h2>
+  <div class="question">
+    <h3>
+      <%= @questions %>
+    </h3>
+  </div>
+</div>
+<br>
+<div class="answerContainer">
+  <h2>Coach Says:</h2>
+  <div class="answer">
+    <h3>
+      <%= @answers %>
+    </h3>
+  </div>
+</div>
+<br>
+<div class="againContainer">
+  <div class="askAgain">
+    <%= link_to "Ask again", root_path %>
+  </div>
+</div>
